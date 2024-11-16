@@ -1,0 +1,26 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.main img {
+  width: 500px;
+}
+
+.header,
+.footer {
+  flex: 0 0 auto;
+}
+
+.main {
+  width: 100%;
+  flex: 1 0 auto;
+  max-width: 64rem;
+  padding: 2rem;
+  margin: 0 auto;
+}
