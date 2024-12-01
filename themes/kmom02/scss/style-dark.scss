@@ -5,15 +5,16 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/solid';
 @import '../../shared/fontawesome/scss/regular';
 
-@import 'variables';
+@import 'variables-dark';
 @import 'container';
 @import 'typography';
 @import '../../node_modules/normalize.css/normalize';
 
-@import 'header';
-@import 'footer';
+@import 'header-dark';
+@import 'footer-dark';
 
 @import 'blockquotes';
 @import 'code';
 @import 'technology';
+
 

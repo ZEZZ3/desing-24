@@ -12,6 +12,7 @@
 .landing-page h1 {
   grid-column: span 3;
   justify-self: center;
+    color: $main-font-color;
 }
 
 .box {
@@ -80,7 +81,6 @@
 
 .technology .article {
   width: 60%;
-
   @media (max-width: 768px) {
     width: 100%;
   }
@@ -93,4 +93,9 @@
     width: 100%;
     margin-bottom: 1.96rem;
   }
+}
+
+
+.menu .a {
+  color: $main-font-color;
 }
