@@ -43,13 +43,15 @@
         padding: 0.5em 0;
     }
 
+    /* Uppdaterad stil för .nav-toggle */
     .js .nav-toggle {
         display: block;
         float: right;
-        width: 2em;
-        margin: 0.6667em 0;
+        width: 48px; /* Ökad bredd för touch-target */
+        height: 48px; /* Ökad höjd för touch-target */
+        margin: 0.6667em 0; /* Behåller marginalerna */
         font-size: 1.5rem;
-        line-height: 2em;
+        line-height: 48px; /* Säkerställer att ikonen är centrerad */
         text-align: center;
         cursor: pointer;
     }
